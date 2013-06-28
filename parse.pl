@@ -86,18 +86,18 @@ This is what one record should look like:
 
 
 
-sun:10:49am[root@Leibniz]ironport as root#  egrep ' 69610481 | 38637862 ' test
-Jun 26 10:42:23 ip1out.temple.edu mail_logs: Info: New SMTP ICID 69610481 interface IP-Inbound (155.247.167.43) address 199.101.162.90 reverse dns host maile-fb.linkedin.com verifi
+sun:10:49am[root@untamedspud.edu]ironport as root#  egrep ' 69610481 | 38637862 ' test
+Jun 26 10:42:23 ip1out.untamedspud.edu mail_logs: Info: New SMTP ICID 69610481 interface IP-Inbound (192.168.166.3) address 199.101.162.90 reverse dns host maile-fb.linkedin.com verifi
 ed yes
-Jun 26 10:42:23 ip1out.temple.edu mail_logs: Info: ICID 69610481 ACCEPT SG VALIDLIST match sbrs[2.0:10.0] SBRS 5.5
-Jun 26 10:42:23 ip1out.temple.edu mail_logs: Info: Start MID 38637862 ICID 69610481
-Jun 26 10:42:23 ip1out.temple.edu mail_logs: Info: MID 38637862 ICID 69610481 From: <m-XCzcfqOcRIvdTvkIgwORlvuOZnddGLH9o2FNfIr-0wuloddlSdmgfpHcyvlzFx@bounce.linkedin.com>
-Jun 26 10:42:23 ip1out.temple.edu mail_logs: Info: MID 38637862 ICID 69610481 RID 0 To: <thomas.force@temple.edu>
-Jun 26 10:42:24 ip1out.temple.edu mail_logs: Info: MID 38637862 Message-ID '<1177218344.458080.1372257743385.JavaMail.app@ela4-app2321.prod>'
-Jun 26 10:42:24 ip1out.temple.edu mail_logs: Info: MID 38637862 Subject 'Your connection Nancie Jordan has endorsed you!'
-Jun 26 10:42:24 ip1out.temple.edu mail_logs: Info: MID 38637862 ready 14453 bytes from <m-XCzcfqOcRIvdTvkIgwORlvuOZnddGLH9o2FNfIr-0wuloddlSdmgfpHcyvlzFx@bounce.linkedin.com>
-Jun 26 10:42:24 ip1out.temple.edu mail_logs: Info: MID 38637862 rewritten to MID 38637865 by LDAP rewrite
-Jun 26 10:42:24 ip1out.temple.edu mail_logs: Info: LDAP: Reroute query ChainRoute MID 38637862 RID 0 address thomas.force@temple.edu to [('tue58286@gomail.temple.edu', '')]
-Jun 26 10:42:24 ip1out.temple.edu mail_logs: Info: Message finished MID 38637862 done
-Jun 26 10:42:29 ip1out.temple.edu mail_logs: Info: ICID 69610481 close
-sun:10:49am[root@Leibniz]ironport as root#  
+Jun 26 10:42:23 ip1out.untamedspud.edu mail_logs: Info: ICID 69610481 ACCEPT SG VALIDLIST match sbrs[2.0:10.0] SBRS 5.5
+Jun 26 10:42:23 ip1out.untamedspud.edu mail_logs: Info: Start MID 38637862 ICID 69610481
+Jun 26 10:42:23 ip1out.untamedspud.edu mail_logs: Info: MID 38637862 ICID 69610481 From: <m-XCzcfqOcRIvdTvkIgwORlvuOZnddGLH9o2FNfIr-0wuloddlSdmgfpHcyvlzFx@bounce.linkedin.com>
+Jun 26 10:42:23 ip1out.untamedspud.edu mail_logs: Info: MID 38637862 ICID 69610481 RID 0 To: <tu4utu4ut@untamedspud.edu>
+Jun 26 10:42:24 ip1out.untamedspud.edu mail_logs: Info: MID 38637862 Message-ID '<1177218344.458080.1372257743385.JavaMail.app@ela4-app2321.prod>'
+Jun 26 10:42:24 ip1out.untamedspud.edu mail_logs: Info: MID 38637862 Subject 'Your connection Nfe 43f has endorsed you!'
+Jun 26 10:42:24 ip1out.untamedspud.edu mail_logs: Info: MID 38637862 ready 14453 bytes from <m-XCzcfqOcRIvdTvkIgwORlvuOZnddGLH9o2FNfIr-0wuloddlSdmgfpHcyvlzFx@bounce.linkedin.com>
+Jun 26 10:42:24 ip1out.untamedspud.edu mail_logs: Info: MID 38637862 rewritten to MID 38637865 by LDAP rewrite
+Jun 26 10:42:24 ip1out.untamedspud.edu mail_logs: Info: LDAP: Reroute query ChainRoute MID 38637862 RID 0 address tu4utu4ut@untamedspud.edu to [('tu4utu4ut@untamedspud.edu', '')]
+Jun 26 10:42:24 ip1out.untamedspud.edu mail_logs: Info: Message finished MID 38637862 done
+Jun 26 10:42:29 ip1out.untamedspud.edu mail_logs: Info: ICID 69610481 close
+sun:10:49am[root@untamedspud.edu]ironport as root#  
